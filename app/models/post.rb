@@ -17,6 +17,6 @@ class Post < ActiveRecord::Base
     self.title = self.title.titlecase
   end
 
-  def email_author_about_posts
+  def email_author_about_post
   end
 end
